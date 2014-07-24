@@ -60,7 +60,7 @@ For More Methods refer to https://www.behance.net/dev/api/console
 Test
 ------
 <pre>
-	npm test
+npm test
 </pre>
 
 
