@@ -28,24 +28,27 @@ var behance = new Behance(keys);
 Usage
 ------
 
-[Get Proyects]: 
+
 <pre>
+[Get Proyects]: 
 behance.get('projects', {"q":"dog", "tags":"cool", "color_hex":"#000" }, function(result){
     console.log(result);
 });
 </pre>
 
 
-[Get Users]:
+
 <pre>
+[Get Users]:
 behance.get('users', { "country":"spain", "sort":"followed" }, function(result){
     console.log(result);
 });
 </pre>
 
 
-[Pagination]:
+
 <pre>
+[Pagination]:
 behance.get('users', { "country":"spain", "sort":"followed", "page":"2" }, function(result){
     console.log(result);
 });
