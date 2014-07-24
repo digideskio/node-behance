@@ -24,40 +24,54 @@ var behance = new Behance(keys);
 </pre>
 
 
-
 Usage
 ------
 
-
 <pre>
-[Get Proyects]: 
+// Get Proyects
+behance.get('projects', function(result){
+    console.log(result);
+});
+
+// Get Proyects with filters
 behance.get('projects', {"q":"dog", "tags":"cool", "color_hex":"#000" }, function(result){
     console.log(result);
 });
-</pre>
 
-
-
-<pre>
-[Get Users]:
+// Get Users
 behance.get('users', { "country":"spain", "sort":"followed" }, function(result){
     console.log(result);
 });
-</pre>
 
-
-
-<pre>
-[Pagination]:
+// Pagination
 behance.get('users', { "country":"spain", "sort":"followed", "page":"2" }, function(result){
     console.log(result);
 });
 </pre>
 
 
-
-
+Methods
+--------
+<pre>
 For More Methods refer to https://www.behance.net/dev/api/console
+</pre>
+
+
+Test
+------
+<pre>
+	npm test
+</pre>
+
+
+Future Implementations
+------------------------
+<pre>
+- Method with POST, DELETE ..etc
+- Suggestions ...
+</pre>
+
+
 
 
 
