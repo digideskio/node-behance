@@ -18,7 +18,7 @@ Set Up
 var Behance = require("node-behance");
 var keys = {
 	"client_id": "9q8RIfKZf1zxVw1LlEqRi6xUyF87jkay", 
-	"client_secret":"jNx7XzAg3CscT_oNTFe3CD75eu"
+	"client_secret":""
 }
 var behance = new Behance(keys);
 </pre>
