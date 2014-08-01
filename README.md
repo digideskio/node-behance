@@ -1,6 +1,8 @@
 node-behance
 -------------
 
+Simple library for use behance api in node.
+
 <a href="https://nodei.co/npm/node-behance/"><img src="https://nodei.co/npm/node-behance.png?downloads=true&stars=true"></a>
 
 
@@ -11,7 +13,7 @@ Install
 npm install node-behance
 </pre>
 
-ALternatively,
+Alternatively,
 <pre>
 npm install https://github.com/pedroparra/node-behance
 </pre>
