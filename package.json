@@ -1,6 +1,6 @@
 {
   "name": "node-behance",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple library for use behance api in node.",
   "main": "main.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^1.21.3"
+    "mocha": "1.21.3"
   }
 }
