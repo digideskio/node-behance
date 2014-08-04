@@ -4,7 +4,7 @@
   "description": "Simple library for use behance api in node.",
   "main": "main.js",
   "scripts": {
-  "test": "mocha test/test.js"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
   "bugs": {
     "url": "https://github.com/pedroparra/node-behance/issues"
   },
-  "dependencies":{
-
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^1.21.3"
   }
-
 }
