@@ -25,6 +25,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "coffee-script": "latest",
     "mocha": "1.21.3"
   }
 }
