@@ -1,4 +1,4 @@
-node-behance
+node-behance  [![Build Status](https://travis-ci.org/pedroparra/node-behance.svg?branch=master)](https://travis-ci.org/pedroparra/node-behance)
 -------------
 
 Simple library for use behance api in node.
@@ -25,7 +25,7 @@ Set Up
 <pre>
 var Behance = require("node-behance");
 var keys = {
-	"client_id": "9q8RIfKZf1zxVw1LlEqRi6xUyF87jkay", 
+	"client_id": "9q8RIfKZf1zxVw1LlEqRi6xUyF87jkay",
 	"client_secret":""
 }
 var behance = new Behance(keys);
@@ -78,10 +78,3 @@ Future Implementations
 - Method with POST, DELETE ..etc
 - Suggestions ...
 </pre>
-
-
-
-
-
-
-
