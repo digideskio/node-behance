@@ -1,5 +1,4 @@
 --ui bdd
 --compilers coffee:coffee-script/register
 --reporter spec
--w
 -G
