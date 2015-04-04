@@ -1,6 +1,7 @@
 # Run Test #
 ############
 test.js
+node_modules
 
 # OS generated files #
 ######################
